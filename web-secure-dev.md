@@ -12,6 +12,12 @@ In a CSRF attack, the attack leverages the fact that the client is already logge
 
 Most input forms are vulnerable to this attack if no special defenses are in place.
 
+## CSRF protection necessary when not using cookie?
+
+- https://stackoverflow.com/questions/21357182/csrf-token-necessary-when-using-stateless-sessionless-authentication
+- https://auth0.com/blog/angularjs-authentication-with-cookies-vs-token/
+
+
 ### CSRF mitigation/defense
 
 - Avoid GET requests
